@@ -13,5 +13,6 @@
     <textarea type="password" class="form-control" id="body" placeholder="Create!" name="body"></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Publish</button>
+    @include('layouts.errors')
 </form>
 @endsection
